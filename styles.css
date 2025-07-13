@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    /*border: 1px solid;*/
 }
 
 .header {
@@ -28,3 +29,51 @@
     text-decoration: none;
     
 }
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    padding: 24px;
+    justify-content: center;
+    gap: 8px;
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+.hero .left .hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero .left .hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button-sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px;
+    flex-grow: 0;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero .right {
+    display: flex;
+    background-color: gray;
+    color: #E5E7EB;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+
