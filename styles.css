@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    /*border: 1px solid;*/
 }
 
 .header {
@@ -76,4 +75,38 @@
     align-items: center;
 }
 
+.information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
 
+.information .info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information .info-boxes {
+    display: flex;
+    gap: 16px;
+    width: 1000px;
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.information .info-boxes .info-box {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    gap: 8px;
+}
+
+.information .info-boxes .info-box .illus {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    padding: 8px;
+    height: 140px;
+}
