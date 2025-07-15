@@ -168,3 +168,14 @@
 .call-to-action .call-to-action-box .right .button-sign-up{
     border: 1px solid white;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 24px;
+    color: #F9FAF8;
+    font-size: 12px;
+
+}
