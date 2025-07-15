@@ -137,3 +137,34 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+.call-to-action {
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action .call-to-action-box {
+    display: flex;
+    padding: 24px;
+    border-radius: 8px;
+    gap: 24px;
+    background-color: #3882F6;
+}
+
+.call-to-action .call-to-action-box .left .head {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.call-to-action .call-to-action-box .left .sub {
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.call-to-action .call-to-action-box .right .button-sign-up{
+    border: 1px solid white;
+}
